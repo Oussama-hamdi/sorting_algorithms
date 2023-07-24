@@ -21,6 +21,7 @@ void quick_sort(int *array, size_t size)
  * @array: Pointer to the array
  * @low: Starting index
  * @high: Ending index
+ * @size: Size of the array
  */
 
 void quick_sort_helper(int *array, int low, int high, size_t size)
@@ -39,6 +40,7 @@ void quick_sort_helper(int *array, int low, int high, size_t size)
  * @array: Pointer to the array
  * @low: Starting index
  * @high: Ending index
+ * @size: Size of the array
  * Return: Index of the pivot element
  */
 
